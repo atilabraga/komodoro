@@ -1,8 +1,10 @@
-package br.com.atilabraga.komodoro
+package br.com.atilabraga.komodoro.settings
 
 import android.os.Bundle
+import br.com.atilabraga.komodoro.BaseActivity
+import br.com.atilabraga.komodoro.R
 
-class SettingsActivity : BaseActivity() {
+class SettingsActivity : BaseActivity(), SettingsContract.View {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
